@@ -1,0 +1,44 @@
+.footer {
+  box-sizing: border-box;
+  padding: 0px 31px 27px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .d-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 87%;
+    text-transform: uppercase;
+    margin: 0 0 0 14px;
+  }
+
+  .footer-text--reserved {
+    margin-right: 58px;
+  }
+
+  @media screen and (max-width: 426px) {
+    padding: 0 25px 20px;
+    overflow-y: hidden;
+  }
+}
+
+.color--black {
+  color: #000000;
+}
+
+.color--white {
+  color: #fff;
+}
+
+.footer-bottom{
+  position: absolute;
+  bottom: 0;
+}
+
